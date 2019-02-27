@@ -1,0 +1,208 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ padding:0px; margin:0px;text-decoration:none;list-style:none;
+font-family:"微软雅黑";}
+ul,li{ list-style:none;}
+hr { height:0px; border-top:1px solid #999; border-right:0px; border-bottom:0px; border-left:0px; }
+a{ text-decoration:none; color:black; display:block;}
+a:hover{text-decoration:none;}
+a:link{text-decoration:none;}
+.all{ height:110%; width:100%; overflow:hidden;}
+.right{ float:right;}
+.left{ float:left;}
+.lef{ float:left;}
+.clear{ float:none;}
+div{word-break : break-all;}
+body{ background:url(../img/bg01.jpg);}
+.beian a{color:#fff;}
+
+@media screen and (min-width:1200px){
+/**all*/
+.all{ width:1150px; height:100%; margin:0 auto;  background-color:#fff;}
+/***head*/
+.head{ height:70px;  background-color:#fff; padding:20px; 
+background-color:#e4e4e4;}/***head背景颜色*/
+
+
+.bg{ background:url(../img/logo.png) no-repeat; height:100px; width:400px; float:left; margin-top:-20px;}
+.ah{ float:right; height:20px; margin-top:20px;}
+.head hr { height:0px; border-top:1px solid #999; border-right:0px; border-bottom:0px; border-left:0px; }
+.head a{ display:block; float:left; width:100px; font-weight:bold; text-align:center; line-height:20px; margin-left:20px; font-size:14px;}
+.head a span{ font-weight:500; font-family:"Times New Roman";}
+.head a:hover{ color:#DADBE9; background-color:#000;}
+
+
+
+.new{ margin-top:30px;}
+.hed{ width:80%; margin:0 auto; margin-bottom:30px; border-bottom:#CCC 1px solid;text-align:center}
+.hed h1{ border-bottom:#666 2px solid; text-align:center; color:#3C93E1; height:50px;
+width:auto; display:inline-block !important; display:inline; padding-left:10px; padding-right:10px;}
+
+/***content*/
+.content{  min-height:800px; margin:0 auto;padding-top:20px; overflow:hidden; margin-bottom:50px;}
+
+/***foot*/
+.foot{ height:10%; line-height:20px; text-align:left; background-color:#656565; padding:30px; color:#fff; }
+.foot img{ float:right; width:100px; height:100px;}
+.fot{ padding-left:100px; padding-right:100px; height:110px;}
+.bt{ text-align:center; border-bottom:1px solid #fff; margin-bottom:30px;position: relative; height:35px;}
+.bt > h2 { color:#fff;}
+.bt > p{ position: absolute; left:50%; top:25px; background:#656565; width:120px; margin-left:-60px;text-algin:center;}
+.foot h3{ margin-bottom:10px;}
+.a1{ margin-top:5px; margin-bottom:10px;overflow:hidden;}
+.a1 a{ display:block; float:left; margin-left:5px;border-right:1px solid #fff; padding-right:10px; padding-left:10px; text-align:center; color:#fff;}
+.no1{ margin-left:-10px !important;}
+.lest1{ border-color:#656565 !important;}
+
+}
+
+@media (min-width:1025px) and (max-width:1199px){
+/**all*/
+.all{ width:1054px; margin:0 auto;  background-color:#fff;}
+/***head*/
+.head{ height:70px;  background-color:#fff; padding:20px; 
+background-color:#e4e4e4;}/***head背景颜色*/
+
+
+.bg{ background:url(../img/logo.png) no-repeat; height:100px; width:400px; float:left; margin-top:-20px;}
+.ah{ float:right; height:20px; margin-top:20px;}
+.head hr { height:0px; border-top:1px solid #999; border-right:0px; border-bottom:0px; border-left:0px; }
+.head a{ display:block; float:left; width:100px; font-weight:bold; text-align:center; line-height:20px; margin-left:20px; font-size:14px;}
+.head a span{ font-weight:500; font-family:"Times New Roman";}
+.head a:hover{ color:#DADBE9; background-color:#000;}
+
+
+.new{ margin-top:30px;}
+.hed{ width:80%; margin:0 auto; margin-bottom:30px; border-bottom:#CCC 1px solid;text-align:center}
+.hed h1{ border-bottom:#666 2px solid; text-align:center; color:#3C93E1; height:50px;
+width:auto; display:inline-block !important; display:inline; padding-left:10px; padding-right:10px;}
+/***content*/
+.content{  min-height:800px; margin:0 auto; background-color:#fff; padding-top:20px; overflow:hidden; margin-bottom:50px;}
+
+/***foot*/
+.foot{ height:10%; line-height:20px; text-align:left; background-color:#656565; padding:30px; color:#fff; }
+.foot img{ float:right; width:100px; height:100px;}
+.fot{ padding-left:80px; padding-right:80px; height:110px;}
+.bt{ text-align:center; border-bottom:1px solid #fff; margin-bottom:30px;position: relative; height:35px;}
+.bt > h2 { color:#fff;}
+.bt > p{ position: absolute; left:50%; top:25px; background:#656565; width:120px; margin-left:-60px;text-algin:center;}
+.foot h3{ margin-bottom:10px;}
+.a1{ margin-top:10px; margin-bottom:10px;overflow:hidden;}
+.a1 a{ display:block; float:left; margin-left:5px;border-right:1px solid #fff; padding-right:10px; padding-left:10px; text-align:center; color:#fff;}
+.no1{ margin-left:-10px !important;}
+.lest1{ border-color:#656565 !important;}
+
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+/**all*/
+.all{ width:800px;  margin:0 auto;  background-color:#fff;}
+/***head*/
+.head{ height:120px;  background-color:#fff; padding:20px; 
+background-color:#e4e4e4;}/***head背景颜色*/
+
+
+.bg{ background:url(../img/logo.png) no-repeat; height:100px; width:300px; margin:0 auto; margin-top:-20px;}
+.ah{ height:20px; margin-top:10px; width:80%; margin:0 auto;}
+.head hr { height:0px; border-top:1px solid #999; border-right:0px; border-bottom:0px; border-left:0px; }
+.head a{ display:block; float:left; width:100px; font-weight:bold; text-align:center; line-height:20px; margin-left:20px; font-size:14px;}
+.head a span{ font-weight:500; font-family:"Times New Roman";}
+.head a:hover{ color:#DADBE9; background-color:#000;}
+
+.new{ margin-top:20px;}
+.hed{ width:80%; margin:0 auto; margin-bottom:30px; border-bottom:#CCC 1px solid;text-align:center}
+.hed h1{ border-bottom:#666 2px solid; text-align:center; color:#3C93E1; height:50px;
+width:auto; display:inline-block !important; display:inline; padding-left:10px; padding-right:10px;}
+/***content*/
+.content{ min-height:800px; margin:0 auto; background-color:#fff; margin-top:-20px; overflow:hidden; margin-bottom:50px;}
+
+/***foot*/
+.foot{ height:10%; line-height:20px; text-align:left; background-color:#656565; padding:30px; color:#fff; }
+.foot img{ float:right; width:100px; height:100px;}
+.fot{ padding-left:30px; padding-right:30px; height:110px;}
+.bt{ text-align:center; border-bottom:1px solid #fff; margin-bottom:30px;position: relative; height:35px;}
+.bt > h2 { color:#fff;}
+.bt > p{ position: absolute; left:50%; top:25px; background:#656565; width:120px; margin-left:-60px;text-algin:center;}
+.foot h3{ margin-bottom:10px;}
+.a1{ margin-top:10px; margin-bottom:10px;overflow:hidden;}
+.a1 a{ display:block; float:left; margin-left:5px;border-right:1px solid #fff; padding-right:10px; padding-left:10px; text-align:center; color:#fff;}
+.no1{ margin-left:-10px !important;}
+.lest1{ border-color:#656565 !important;}
+
+
+}
+
+@media (min-width:376px) and (max-width:767px){
+/**all*/
+.all{ width:450px;  margin:0 auto;  background-color:#fff;}
+
+/***head*/
+.head{ height:110px;  background-color:#fff; padding:20px;background-color:#e4e4e4;}
+
+.bg{ background:url(../img/logo.png) no-repeat; height:100px; width:400px; float:left; margin-top:-20px;}
+.ah{ float:right; height:20px;}
+.head hr { height:0px; border-top:1px solid #999; border-right:0px; border-bottom:0px; border-left:0px; }
+.head a{ display:block; float:left; width:80px; font-weight:bold; text-align:center; line-height:20px; margin-left:2px; font-size:14px;}
+.head a span{ font-weight:500; font-size:6px;}
+.head a:hover{ color:#DADBE9; background-color:#000;}
+
+.new{ margin-top:5px;}
+.hed{ width:80%; margin:0 auto; margin-bottom:30px; border-bottom:#CCC 1px solid;text-align:center}
+.hed h1{ border-bottom:#666 2px solid; text-align:center; color:#3C93E1; height:50px;
+width:auto; display:inline-block !important; display:inline; padding-left:10px; padding-right:10px;}
+/***content*/
+.content{ min-height:800px; margin:0 auto; background-color:#fff; overflow:hidden; margin-bottom:20px; margin-top:-30px;}
+.left{ width:100% !important;}
+.right{ display:none;}
+
+/***foot*/
+.foot{ height:10%; line-height:20px; text-align:left; background-color:#656565; padding:30px; color:#fff; }
+.foot img{ float:right; width:100px; height:100px;}
+.fot{height:130px;}
+.bt{ text-align:center; border-bottom:1px solid #fff; margin-bottom:30px;position: relative; height:35px;}
+.bt > h2 { color:#fff;}
+.bt > p{ position:absolute; left:50%; top:25px; background:#656565; width:120px; margin-left:-60px;text-algin:center;}
+.foot h3{ margin-bottom:10px;}
+.a1{ margin-top:5px; margin-bottom:10px;overflow:hidden;width:100%;}
+.a1 a{ display:block; float:left; border-right:1px solid #fff; padding-right:2px; padding-left:3px; text-align:center; color:#fff;}
+.no1{ margin-left:-3px !important;}
+.lest1{ border-color:#656565 !important;}
+
+}
+
+@media only screen and (max-width:375px){
+/**all*/
+.all{ width:300px; margin:0 auto;  background-color:#fff;}
+
+/***head*/
+.head{ height:130px;  background-color:#fff;background-color:#e4e4e4;}
+
+.bg{ background:url(../img/logos.png) no-repeat; height:100px; width:300px; float:left;}
+.ah{height:45px; margin-left:1%; }
+.head hr { display:none;}
+.head a{ display:block; float:left; width:40px; font-weight:bold; text-align:center; margin-left:15px; margin-top:-20px; font-size:14px;}
+.head a span{ display:none;}
+.head a:hover{ color:#DADBE9; background-color:#000;}
+
+.new{ margin-top:20px;}
+.hed{ width:80%; margin:0 auto; margin-bottom:30px; border-bottom:#CCC 1px solid;text-align:center}
+.hed h1{ border-bottom:#666 2px solid; text-align:center; color:#3C93E1; height:50px;
+width:auto; display:inline-block !important; display:inline; padding-left:10px; padding-right:10px;}
+/***content*/
+.content{ min-height:800px; margin:0 auto; background-color:#fff; overflow:hidden; margin-bottom:20px; margin-top:-30px;}
+.left{ width:100% !important;}
+.right{ display:none;}
+
+/***foot*/
+.foot{ height:10%; line-height:20px; text-align:left; background-color:#656565; padding:5px; color:#fff; overflow:hidden; }
+.foot img{ float:right; width:90px; height:90px; margin-top:10px;}
+.fot{height:120px;}
+.fot h3{ font-size:16px;}
+.bt{ text-align:center; border-bottom:1px solid #fff; margin-bottom:25px;position: relative; height:35px; margin-top:-20px;}
+.bt > h2 { color:#fff; position:absolute; top:25px; left:83px; background:#656565; padding:0 10px;}
+.bt > p{ display:none;}
+
+.a1{ margin-top:10px; margin-bottom:10px;}
+.a1 a{ display: none;}
+
+}

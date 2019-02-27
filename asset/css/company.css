@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content div{ display:block;}
+/**content*/
+@media screen and (min-width:1025px){
+.c1 { height:350px; width:80%; margin:0 auto;}
+.pic{ width:37%; margin-left:100px; height:250px; margin-top:30px; background:url(../img/p0011.jpg) no-repeat bottom;}
+.pic1{ width:37%; margin-left:100px; height:300px; margin-top:30px;background:url(../img/p002.jpg) no-repeat left; float:right;}
+.tx{ width:35%;margin-top:15px; height:300px;margin-left:100px; overflow:hidden;}
+.tx1{ width:35%;margin-top:15px; height:350px;margin-left:100px; overflow:hidden; float:right;}
+.tx p,.tx1 p{ font-size:14px;}
+.content h2{color:#3C93E1; line-height:50px;}
+.content span{ color:#000; font-size:16px;}
+
+}
+
+@media (min-width:768px) and (max-width:1024px){
+.c1 { height:350px; width:80%; margin:0 auto;}
+.pic{ width:100%; height:250px; margin-top:30px; background:url(../img/p0011.jpg) no-repeat bottom;}
+.pic1{ width:100%; height:300px; margin-top:-500px;background:url(../img/p002.jpg) no-repeat left; }
+.tx{ width:100%;margin-top:15px; height:300px;overflow:hidden;}
+.tx1{ width:100%;margin-top:170px; height:300px;overflow:hidden;margin-bottom:-100px;}
+.tx p,.tx1 p{ font-size:14px;}
+.content h2{color:#3C93E1; line-height:50px;}
+.content span{ color:#000; font-size:16px;}
+}
+
+@media (min-width:376px) and (max-width:767px){
+.c1 { height:350px; width:80%; margin:0 auto;}
+.pic{ width:100%; height:250px; margin-top:30px; background:url(../img/p0011.jpg) no-repeat bottom;}
+.pic1{ width:100%; height:250px; margin-top:-600px;background:url(../img/p002.jpg) no-repeat left; }
+.tx{ width:100%;margin-top:15px; height:350px;overflow:hidden;}
+.tx1{ width:100%;margin-top:150px; height:450px;overflow:hidden;margin-bottom:-100px;}
+.tx p,.tx1 p{ font-size:14px;}
+.content h2{color:#3C93E1; line-height:50px;}
+.content span{ color:#000; font-size:16px;}
+}
+
+@media only screen and (max-width:375px){
+.c1 { height:350px; width:80%; margin:0 auto;}
+.pic{ width:100%; height:250px; margin-top:30px; background:url(../img/p0011.jpg) no-repeat bottom;}
+.pic1{ width:100%; height:250px; margin-top:-720px;background:url(../img/p002.jpg) no-repeat left; }
+.tx{ width:100%;margin-top:15px; height:430px;overflow:hidden;}
+.tx1{ width:100%;margin-top:180px; height:560px;overflow:hidden;margin-bottom:-100px;}
+.tx p,.tx1 p{ font-size:14px;}
+.content h2{color:#3C93E1; line-height:30px;}
+.content span{ color:#000; font-size:14px; display:block;}
+}

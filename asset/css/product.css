@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (min-width:1200px){
+/**content*/
+.content { width:80%; margin-left:60px !important;}
+}
+@media (min-width:376px) and (max-width:1199px){
+/**content*/
+.content { width:100%;}
+}
+
+@media only screen and (max-width:375px){
+/**content*/
+.content { width:100%;}
+.pd{margin-left:0px !important;margin-bottom:0px !important;}
+}
+
+
+.content h2{ color:#7979FF; text-align:center; margin-bottom:50px;}
+.content > div{ width:200px; height:250px;  display:block; float:left;}
+
+/**move*/
+.bg1{
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:200px;
+	height:200px;
+}
+.lun1{
+	position: absolute; 
+	left: -100px; 
+	top: 0px; 
+	width: 400px;
+}
+.lun2{
+	position: absolute; 
+	right:110px; 
+	top: 0px; 
+	width: 400px;
+}
+.word1{
+	position: absolute; 
+	left:100px; 
+	top: 0px; 
+	width: 400px;
+}
+.word2{
+	position: absolute; 
+	right:-100px; 
+	top: 0px; 
+	width: 400px;
+}
+h5{
+	margin-top:210px;
+}
+.pd{
+	position: relative;
+	top:20px;
+	left:50px;
+	overflow: hidden; 
+	width:180px;
+	height:180px;
+	text-align:center;
+	float:left;
+	margin-left:85px;
+	margin-bottom:20px;
+}
+.pd img { width:220px; height:200px; border:0px;}
+
+
+
+
+
+
+
+
+

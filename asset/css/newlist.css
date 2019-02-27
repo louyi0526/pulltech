@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**content*/
+@media screen and (min-width:768px){
+h2{ color:#3C93E1; margin-bottom:70px;}
+h2 > span { font-size:12px; font-weight:bold; color:#000;}
+li { width:60%; border-bottom:#CCC 1px dashed; margin:0 auto; text-align:left; line-height:24px;}
+li > span { float:right;}
+.pag{ margin-top:100px; margin-right:230px; float:right;}
+.pag a{ display:block; float:left; width:70px;}
+.new a:hover{ color:#3C93E1;}
+.new li{ margin-top:20px;}
+}
+
+@media only screen and (max-width:767px){
+.content{ padding-bottom:30px !important; height:auto !important;}
+h2{ color:#3C93E1; margin-bottom:70px;}
+h2 > span { font-size:12px; font-weight:bold; color:#000;}
+li { width:60%; border-bottom:#CCC 1px dashed; margin:0 auto; text-align:left; line-height:24px;}
+li > span { float:right;}
+.new a:hover{ color:#3C93E1;}
+.new li{ margin-top:20px;}
+.pag{ text-align:center; margin-top:50px; margin-left:30%; }
+.pag a{ display:block; float:left; width:60px;}
+}
+
+
